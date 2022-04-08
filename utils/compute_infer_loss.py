@@ -1,7 +1,7 @@
 import torch
 from model.loss import *
 from model.model_util import mean
-from PerceptualSimilarity.models import compare_ssim as SSIM
+from PerceptualSimilarity.models import structural_similarity as SSIM
 import numpy as np
 
 
